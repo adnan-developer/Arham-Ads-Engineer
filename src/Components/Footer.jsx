@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaTwitter, FaEnvelope, FaGithub } from 'react-icons/fa';
+import { SiUpwork } from 'react-icons/si';
 
 const Footer = () => {
   return (
@@ -37,17 +38,27 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold mb-4">Connect</h2>
           <div className="flex space-x-4 text-gray-200">
+            <a
+  href="https://www.upwork.com/freelancers/~01de1bd6d6027a46da"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition"
+>
+  <h1 className="text-xl">
+    <SiUpwork />
+  </h1>
+</a>
             <a href="https://www.linkedin.com/in/arhamyaseentahir/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
             <h1 className='text-xl'><i className="ri-linkedin-box-fill"></i></h1>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-              <h1 className='text-xl'><i className="ri-twitter-x-line"></i></h1>
+              <a href="https://www.facebook.com/arhamadsengineer" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            <h1 className='text-xl'><i className="ri-facebook-fill"></i></h1>
             </a>
-            <a href="mailto:your@email.com" className="hover:text-white transition">
+            <a href="https://www.instagram.com/arhamadsengineer" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+            <h1 className='text-xl'><i className="ri-instagram-line"></i></h1>
+            </a>
+            <a href="mailto:arhamadsengineer@gmail.com" className="hover:text-white transition">
               <h1 className='text-xl'><i className="ri-mail-fill"></i></h1>
-            </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-             <h1 className='text-xl'><i className="ri-github-fill"></i></h1>
             </a>
           </div>
         </div>
