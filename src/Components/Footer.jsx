@@ -9,7 +9,7 @@ const Footer = () => {
 
         {/* Branding */}
         <div>
-          <h1 className="text-2xl font-bold mb-4">Arham Yasin Tahir</h1>
+          <h1 className="text-2xl font-bold mb-4">Arham Yaseen Tahir</h1>
           <p className="text-sm text-gray-200">
             Certified Google Ads Expert & Performance Marketer. Helping brands grow through data-driven advertising.
           </p>
