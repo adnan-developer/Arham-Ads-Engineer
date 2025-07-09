@@ -60,6 +60,9 @@ const Footer = () => {
             <a href="mailto:arhamadsengineer@gmail.com" className="hover:text-white transition">
               <h1 className='text-xl'><i className="ri-mail-fill"></i></h1>
             </a>
+              <a href="wa.me/923099694096" className="hover:text-white transition">
+              <h1 className='text-xl'><i className="ri-whatsapp-line"></i></h1>
+            </a>
           </div>
         </div>
       </div>
